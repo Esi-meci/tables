@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables</title>
+    <link rel="stylesheet" href="tables.css">
+    <style>
+        table{
+            font-family: 'Nanito', sans-serif;
+        }
+        table td{
+            height: 30px;
+        }
+        #center-align{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <figure>
+        <img src="../resources/table1.jpg" alt="first-table">
+    </figure>
+    <figure>
+        <img src="../resources/table 2.jpg" alt="second-table">
+    </figure>
+
+    <table border= 1 style="border-color: black; border-collapse: collapse; width: 80%;">
+        <thead>
+            <tr>
+                <th colspan="2" style="text-align: left;">Subject</th>
+                <th>John Doe</th>
+                <th>Miriam Luther</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="2">Biology</td>
+                <td>Practical</td>
+                <td id="center-align">A</td>
+                <td id="center-align">A</td>
+            </tr>
+            <tr>
+                <td>Theory</td>
+                <td id="center-align">A+</td>
+                <td id="center-align">A</td>
+            </tr>
+           <tr>
+                <td rowspan="2">Chemistry</td>
+                <td>Practical</td>
+                <td id="center-align">B</td>
+                <td id="center-align">C</td>
+           </tr>
+           <tr>
+                <td>Theory</td>
+                <td id="center-align">A</td>
+                <td id="center-align">C+</td>
+            </tr>
+            <td rowspan="2">Physics</td>
+            <td>Practical</td>
+            <td id="center-align">A</td>
+            <td id="center-align">A</td>
+       </tr>
+       <tr >
+            <td>Theory</td>
+            <td id="center-align">A-</td>
+            <td id="center-align">A-</td>
+        </tr>
+        </tbody>
+    </table>
+</body>
+</html>
